@@ -1,12 +1,26 @@
 # Poker buddy
 This repository hold the different parts of a poker assistant projects. 
 
-## How to use the different objects
+
+
+## Installation
+
+This project was only developed using Python and numpy.
+
+```
+git clone https://github.com/frgfm/poker-buddy.git
+cd poker-buddy
+pip install requirements.txt
+```
+
+
+
+## Usage
 
 If you prefer running the simulation directly without entering a shell:
 
 ```bash
-python main.py
+python src/main.py
 ```
 
 If you favor using objects in Python, you can use the classes and functions from the game.py file
