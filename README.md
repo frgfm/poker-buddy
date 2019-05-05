@@ -44,18 +44,18 @@ print('Winner:', get_winners(hands))
 Either way, it should simulate a game with an output similar to:
 ```bash
 Dealing cards to players...
-Flop: ['6 Hearts', '5 Hearts', '3 Spades']
-Turn: ['6 Hearts', '5 Hearts', '3 Spades', 'K Hearts']
-River: ['6 Hearts', '5 Hearts', '3 Spades', 'K Hearts', '3 Hearts']
-Player 0: ['8 Hearts', '5 Diamonds']
-{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': 'Hearts', 'straight': [], 'threes': [], 'double pairs': [3, 1], 'pairs': [3, 1], 'high': 11}
-Player 1: ['4 Spades', 'K Spades']
-{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': [], 'straight': [], 'threes': [], 'double pairs': [11, 1], 'pairs': [11, 1], 'high': 11}
-Player 2: ['7 Clubs', '7 Diamonds']
-{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': [], 'straight': [], 'threes': [], 'double pairs': [5, 1], 'pairs': [5, 1], 'high': 11}
-Player 3: ['8 Diamonds', '5 Clubs']
-{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': [], 'straight': [], 'threes': [], 'double pairs': [3, 1], 'pairs': [3, 1], 'high': 11}
-Winner: 1
+Flop: ['9 Diamonds', '6 Diamonds', 'Q Diamonds']
+Turn: ['9 Diamonds', '6 Diamonds', 'Q Diamonds', '3 Diamonds']
+River: ['9 Diamonds', '6 Diamonds', 'Q Diamonds', '3 Diamonds', '2 Clubs']
+Player 0: ['4 Spades', '10 Diamonds']
+{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': 'Diamonds', 'straight': [], 'threes': [], 'double pairs': [], 'pairs': [], 'high': 10}
+Player 1: ['5 Spades', 'A Spades']
+{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': [], 'straight': [], 'threes': [], 'double pairs': [], 'pairs': [], 'high': 12}
+Player 2: ['K Diamonds', '9 Spades']
+{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': 'Diamonds', 'straight': [], 'threes': [], 'double pairs': [], 'pairs': [7], 'high': 11}
+Player 3: ['J Spades', '10 Spades']
+{'royal flush': None, 'straight flush': None, 'fours': [], 'full house': None, 'flush': [], 'straight': [], 'threes': [], 'double pairs': [], 'pairs': [], 'high': 10}
+Winner: [2]
 ```
 
 
